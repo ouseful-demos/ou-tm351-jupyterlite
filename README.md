@@ -4,6 +4,14 @@
 
 JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
 
+## TH Testing
+
+- OU branding
+- empinken
+- cell status indicator
+- webr kernel
+- templates
+
 ## ✨ Try it in your browser ✨
 
 ➡️ **https://jupyterlite.github.io/demo**
