@@ -11,9 +11,9 @@ dependencies:
   - ipywidgets
   - descartes
   - scipy
-  - shapely
   - pip:
       - requests
+      - shapely
       - folium
       - ipython-magic-folium
       - ./packages/Localization.zip
