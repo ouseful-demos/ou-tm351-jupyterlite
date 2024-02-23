@@ -12,6 +12,7 @@ dependencies:
   - descartes
   - scipy
   - pip:
+      - urllib3
       - requests
       - folium
       - ipython-magic-folium
