@@ -16,4 +16,3 @@ dependencies:
       - shapely
       - folium
       - ipython-magic-folium
-      - ./packages/Localization.zip
