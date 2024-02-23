@@ -16,6 +16,7 @@ dependencies:
   - branca
   - chardet
   - pygeoif
+  - geopandas
   - pip:
       - ipython-magic-folium
-      - ./packages/Localization-b.zip
+      - ./packages/Localization.zip
