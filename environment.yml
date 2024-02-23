@@ -15,6 +15,7 @@ dependencies:
   - folium
   - branca
   - chardet
+  - pygeoif
   - pip:
       - ipython-magic-folium
       - ./packages/Localization.zip
