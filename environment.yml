@@ -13,6 +13,6 @@ dependencies:
   - scipy
   - pip:
       - requests
-      - shapely
       - folium
       - ipython-magic-folium
+      - ./packages/Localization.zip
