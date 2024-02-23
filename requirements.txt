@@ -56,5 +56,17 @@ ipyleaflet
 plotly>=5,<6
 bqplot
 
-# Local packages
+# TM112
+jupytext
+folium
+ipywidgets
+
+descartes
+scipy
+shapely
+pandas
+git+https://github.com/psychemedia/ipython_magic_folium.git
+
+
+## Local packages
 ./packages/Localization.zip
