@@ -11,10 +11,9 @@ dependencies:
   - ipywidgets
   - descartes
   - scipy
+  - requests
+  - folium
+  - branca
   - pip:
-      - urllib3
-      - requests
-      - folium
-      - branca
       - ipython-magic-folium
       - ./packages/Localization.zip
