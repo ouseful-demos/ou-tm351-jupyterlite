@@ -15,5 +15,6 @@ dependencies:
       - urllib3
       - requests
       - folium
+      - branca
       - ipython-magic-folium
       - ./packages/Localization.zip
