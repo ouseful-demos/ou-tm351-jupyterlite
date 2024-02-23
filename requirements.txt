@@ -9,7 +9,8 @@ jupyterlab-ou-brand-extension
 
 jupyterlab_templates
 
-git+https://github.com/r-wasm/jupyterlite-webr-kernel.git
+#git+https://github.com/r-wasm/jupyterlite-webr-kernel.git
+jupyterlite-xeus
 
 # Python kernel (optional)
 jupyterlite-pyodide-kernel==0.2.1
@@ -55,18 +56,3 @@ ipyleaflet
 # Python: plotting libraries (optional)
 plotly>=5,<6
 bqplot
-
-# TM112
-requests
-folium
-ipywidgets
-
-descartes
-scipy
-shapely
-pandas
-ipython-magic-folium
-
-
-## Local packages
-./packages/Localization.zip
