@@ -1,37 +1,26 @@
-# JupyterLite Demo
+# OU TM112 Jupyter Notebook Activities
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+Notebooks and resources for the Open University Course [TM112 Introduction to computing and information technology 2](http://www.open.ac.uk/courses/modules/tm112) Block 2 Week 6 geolocation activities.
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+Notebooks are provided for the following activities:
 
-## TH Testing
+- Activity 6.16 - Cell Tower Lookup.ipynb
+- Activity 6.20 - Locating Nearby Wifi Hotspots.ipynb
+- Activity 6.22 - 6.25 Geocoding.ipynb
+  - Activity 6.22 - Geocoding an address using an API
+  - Activity 6.23 - Geocoding addresses and postcodes
+  - Activity 6.24 - Geocoding an IP address
+  - Activity 6.25 - Reverse geocoding a postcode
+- Activity 6.27 - Creating annotated interactive maps with Python
+- Activity 6.29 - Modelling uncertainty in simple trilateration.ipynb
 
-- OU branding
-- empinken
-- cell status indicator
-- webr kernel
-- templates
+You should be able to find the notebooks in either the `notebooks` folder or the `work` folder depending on which notebook server you are running.
 
-## ✨ Try it in your browser ✨
+You can run and inspect these notebooks in various ways. 
 
-➡️ **https://jupyterlite.github.io/demo**
+For TM112 students, the recommended option is the Open Compute Lab - if you arrived here via the Open Compute Lab, you can now go to the work folder to run the notebooks. If you have not used a Jupyter notebook before, we recommend you start with Using Jupyter Notebooks.ipynb
 
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+Alternatively, you can run live interactive notebook activities here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ouseful-course-containers/ou-tm112-notebooks/HEAD?urlpath=tree/work)
 
-## Requirements
-
-JupyterLite is being tested against modern web browsers:
-
-- Firefox 90+
-- Chromium 89+
-
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
+See an interactive HTML book of materials here: https://ouseful-course-containers.github.io/ou-tm112-notebooks/
+See a non-executable, non-interactive, static (read-only) HTML preview of the materials here: https://ouseful-course-containers.github.io/ou-tm112-notebooks/pre-run

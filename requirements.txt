@@ -28,6 +28,7 @@ jupyterlab-language-pack-zh-CN
 # Lua kernel (optional)
 #jupyterlite-xeus-lua==0.3.1
 
+
 # JupyterLab: Fasta file renderer (optional)
 #jupyterlab-fasta>=3.3.0,<4
 # JupyterLab: Geojson file renderer (optional)
@@ -54,3 +55,6 @@ ipyleaflet
 # Python: plotting libraries (optional)
 plotly>=5,<6
 bqplot
+
+# Local packages
+./packages/Localization.zip
