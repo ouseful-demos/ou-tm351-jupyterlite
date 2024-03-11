@@ -20,11 +20,14 @@ You can run and inspect these notebooks in various ways.
 
 For TM112 students, the recommended option is the Open Compute Lab - if you arrived here via the Open Compute Lab, you can now go to the work folder to run the notebooks. If you have not used a Jupyter notebook before, we recommend you start with Using Jupyter Notebooks.ipynb
 
-Alternatively, you can run live interactive notebook activities inside your browser using JupyterLite. Access the JupyterLite materials here: [`ouseful-demos/jupyterlite-tm112-demo`](https://ouseful-demos.github.io/jupyterlite-tm112-demo/lab/index.html)
+Alternatively, you can run live interactive notebook activities inside your browser using JupyterLite:
+
+- [document centric "Jupyter notebok" style UI](https://ouseful-demos.github.io/jupyterlite-tm112-demo/tree/work)
+- [IDE style JupyterLab environment](https://ouseful-demos.github.io/jupyterlite-tm112-demo/lab)
 
 __When running the notebooks in JupyterLite, use the `Python 3.11 XPython` kernel for all module notebooks *except* the *Activity 6.29 - Modelling uncertainty* notebook which MUST use the *Pyodide* kernel.__
 
-A non-executable, non-interactive, static (read-only) HTML preview of the materials here: https://ouseful-demos.github.io/jupyterlite-tm112-demo/book_output
+A non-executable, non-interactive, static (read-only) HTML preview of the materials is also available here: https://ouseful-demos.github.io/jupyterlite-tm112-demo/book_output
 
 ## Localization Package
 

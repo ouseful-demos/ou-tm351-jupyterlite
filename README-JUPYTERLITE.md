@@ -4,6 +4,23 @@ JupyterLite is a Jupyter enviroment that runs purely in the browser using WASM b
 
 Once the environment has loaded, notebooks will run in the browser without the need for a network connection or an external Jupyter server. *A network connection __will__ be required if the notebook code makes network requests, of course.*
 
+Two styles of user interface are available:
+
+- [document centric "Jupyter notebok" style UI](https://ouseful-demos.github.io/jupyterlite-tm112-demo/tree/work)
+- [IDE style JupyterLab environment](https://ouseful-demos.github.io/jupyterlite-tm112-demo/lab)
+
+Direct links to the exectuable JupyterLite and static pre-run HTML book versions of the notebooks:
+
+- Activity 6.16 - Cell Tower Lookup.ipynb (JupyterLite [lab](https://ouseful-demos.github.io/jupyterlite-tm112-demo/lab/?path=work%2FActivity+6.16+-+Cell+Tower+Lookup.ipynb), [nb](https://ouseful-demos.github.io/jupyterlite-tm112-demo/notebooks/?path=work%2FActivity+6.16+-+Cell+Tower+Lookup.ipynb); [html](https://ouseful-demos.github.io/jupyterlite-tm112-demo/book_output/Activity%206.16%20-%20Cell%20Tower%20Lookup.html))
+- Activity 6.20 - Locating Nearby Wifi Hotspots.ipynb (JupyterLite [lab](https://ouseful-demos.github.io/jupyterlite-tm112-demo/lab/?path=work%2FActivity+6.20+-+Locating+Nearby+Wifi+Hotspots.ipynb), [nb](https://ouseful-demos.github.io/jupyterlite-tm112-demo/notebooks/?path=work%2FActivity+6.20+-+Locating+Nearby+Wifi+Hotspots.ipynb); [html](https://ouseful-demos.github.io/jupyterlite-tm112-demo/book_output/Activity%206.20%20-%20Locating%20Nearby%20Wifi%20Hotspots.html))
+- Activity 6.22 - 6.25 Geocoding.ipynb (JupyterLite [lab](https://ouseful-demos.github.io/jupyterlite-tm112-demo/lab/?path=work%2FActivity+6.22+-+6.25+-+Geocoding.ipynb), [nb](https://ouseful-demos.github.io/jupyterlite-tm112-demo/notebooks/?path=work%2FActivity+6.22+-+6.25+-+Geocoding.ipynb); [html](https://ouseful-demos.github.io/jupyterlite-tm112-demo/book_output/Activity%206.22%20-%206.25%20-%20Geocoding.html))
+  - Activity 6.22 - Geocoding an address using an API
+  - Activity 6.23 - Geocoding addresses and postcodes
+  - Activity 6.24 - Geocoding an IP address
+  - Activity 6.25 - Reverse geocoding a postcode
+- Activity 6.27 - Creating annotated interactive maps with Python (JupyterLite [lab](https://ouseful-demos.github.io/jupyterlite-tm112-demo/lab/?path=work%2FActivity+6.27+-+Creating+annotated+interactive+maps+with+Python.ipynb), [nb](https://ouseful-demos.github.io/jupyterlite-tm112-demo/notebooks/?path=work%2FActivity+6.27+-+Creating+annotated+interactive+maps+with+Python.ipynb); [html](https://ouseful-demos.github.io/jupyterlite-tm112-demo/book_output/Activity%206.27%20-%20Creating%20annotated%20interactive%20maps%20with%20Python.html))
+- Activity 6.29 - Modelling uncertainty in simple trilateration.ipynb (JupyterLite [lab](https://ouseful-demos.github.io/jupyterlite-tm112-demo/lab/?path=work%2FActivity+6.29+-+Modelling+uncertainty+in+simple+trilateration.ipynb), [nb](https://ouseful-demos.github.io/jupyterlite-tm112-demo/notebooks/?path=work%2FActivity+6.29+-+Modelling+uncertainty+in+simple+trilateration.ipynb); [html](https://ouseful-demos.github.io/jupyterlite-tm112-demo/book_output/Activity%206.29%20-%20Modelling%20uncertainty%20in%20simple%20trilateration.html))
+
 Edits and updates to notebook files are persisted using browser storage, although there are a few quirks in storage behaviour:
 
 - if you *create* a new notebook or file and save it, it will be saved to browser storage; if you close the borwser and then revisit the same JupyterLite site / URL, the new or modified files will be available to you. If you then delete the notebook, it will be deleted from notebook storage;
