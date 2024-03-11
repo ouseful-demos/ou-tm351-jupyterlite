@@ -26,9 +26,12 @@ jobs:
         run: |
           cp README*.md content
           jupyter lite build --contents content --output-dir dist
-      - name: Build the JupyterBook site
+      - name: Create env
         run: |
           $CONDA/bin/conda create -n jb python=3.10
+          $CONDA/bin/conda init bash
+      - name: Build the JupyterBook site
+        run: |
           $CONDA/bin/conda activate jb
           $CONDA/bin/conda install -c conda-forge jupyter-book
           $CONDA/bin/conda env update --file environment.yml --name jb
