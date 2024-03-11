@@ -5,7 +5,7 @@ logo: images/OU-logo-83x65.png
 only_build_toc_files: true
 exclude_patterns: [.md, ^ipynb, .ipynb/*, _build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 execute:
-  execute_notebooks: off
+  execute_notebooks: force
   timeout: 60  
 parse:
   myst_dmath_double_inline: true
