@@ -20,13 +20,13 @@ You can run and inspect these notebooks in various ways.
 
 For TM112 students, the recommended option is the Open Compute Lab - if you arrived here via the Open Compute Lab, you can now go to the work folder to run the notebooks. If you have not used a Jupyter notebook before, we recommend you start with Using Jupyter Notebooks.ipynb
 
-Alternatively, you can run live interactive notebook activities here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ouseful-course-containers/ou-tm112-notebooks/HEAD?urlpath=tree/work)
+Alternatively, you can run live interactive notebook activities inside your browser using JupyterLite. Access the JupyterLite materials here: [`ouseful-demos/jupyterlite-tm112-demo`](https://ouseful-demos.github.io/jupyterlite-tm112-demo/lab/index.html)
 
-See an interactive HTML book of materials here: https://ouseful-course-containers.github.io/ou-tm112-notebooks/
+STILL TO DO: See an interactive HTML book of materials here: https://ouseful-course-containers.github.io/ou-tm112-notebooks/
 See a non-executable, non-interactive, static (read-only) HTML preview of the materials here: https://ouseful-course-containers.github.io/ou-tm112-notebooks/pre-run
 
 ## Localization Package
 
 The `localization` package has been rebuilt and pushed to PyPi as `localization-patched`. It will run in the `pyodide` kernel, but does not currently run in Xeus-Python due to a missing `shapely` related dependency.
 
-The `localization-patched` package is built from the package source in this repo.
+The `localization-patched` package is built from the package source in the [`ouseful-demos/jupyterlite-tm112-demo`](https://github.com/ouseful-demos/jupyterlite-tm112-demo) GitHub repo.
