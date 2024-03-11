@@ -24,8 +24,7 @@ Alternatively, you can run live interactive notebook activities inside your brow
 
 __When running the notebooks in JupyterLite, use the `Python 3.11 XPython` kernel for all module notebooks *except* the *Activity 6.29 - Modelling uncertainty* notebook which MUST use the *Pyodide* kernel.__
 
-STILL TO DO: See an interactive HTML book of materials here: https://ouseful-course-containers.github.io/ou-tm112-notebooks/
-See a non-executable, non-interactive, static (read-only) HTML preview of the materials here: https://ouseful-course-containers.github.io/ou-tm112-notebooks/pre-run
+A non-executable, non-interactive, static (read-only) HTML preview of the materials here: https://ouseful-demos.github.io/jupyterlite-tm112-demo/book_output
 
 ## Localization Package
 
