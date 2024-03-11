@@ -28,8 +28,10 @@ jobs:
           jupyter lite build --contents content --output-dir dist
       - name: Build the JupyterBook site
         run: |
+          $CONDA/bin/conda create -n jb python=3.10
+          $CONDA/bin/conda activate jb
           $CONDA/bin/conda install -c conda-forge jupyter-book
-          $CONDA/bin/conda env update --file environment.yml --name base
+          $CONDA/bin/conda env update --file environment.yml --name jb
           jupyter kernelspec list  
           jupyter-book build content/work --path-output book_output
           cp -r book_output/_build/html dist/book_output/
