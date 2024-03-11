@@ -29,9 +29,9 @@ jobs:
       - name: Build the JupyterBook site
         run: |
           $CONDA/bin/conda env update --file environment.yml --name base
-          pip install jupyter-book       
-          jupyter-book build content/work --path-output book_output
-          cp -r book_output/_build/html dist/book_output/
+          pip install jupyter-book
+          jupyter kernelspec list  
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
