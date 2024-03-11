@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='Localization',
+    name='localization-patched',
     version='0.1.4',
     author='Kamal Shadi',
     author_email='kamal.shadi85@gmail.com',

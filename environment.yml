@@ -18,4 +18,3 @@ dependencies:
   - pygeoif
   - pip:
       - ipython-magic-folium
-      - ./packages/Localization.zip

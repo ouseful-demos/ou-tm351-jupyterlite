@@ -24,3 +24,9 @@ Alternatively, you can run live interactive notebook activities here: [![Binder]
 
 See an interactive HTML book of materials here: https://ouseful-course-containers.github.io/ou-tm112-notebooks/
 See a non-executable, non-interactive, static (read-only) HTML preview of the materials here: https://ouseful-course-containers.github.io/ou-tm112-notebooks/pre-run
+
+## Localization Package
+
+The `localization` package has been rebuilt and pushed to PyPi as `localization-patched`. It will run in the `pyodide` kernel, but does not currently run in Xeus-Python due to a missing `shapely` related dependency.
+
+The `localization-patched` package is built from the package source in this repo.
