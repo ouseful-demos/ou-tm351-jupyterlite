@@ -1,0 +1,15 @@
+jupyter-book
+xeus-python
+numpy
+matplotlib
+pandas
+pillow
+ipywidgets
+descartes
+scipy
+requests
+folium
+branca
+chardet
+pygeoif
+ipython-magic-folium
