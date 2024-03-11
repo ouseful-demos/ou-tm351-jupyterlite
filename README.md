@@ -22,6 +22,8 @@ For TM112 students, the recommended option is the Open Compute Lab - if you arri
 
 Alternatively, you can run live interactive notebook activities inside your browser using JupyterLite. Access the JupyterLite materials here: [`ouseful-demos/jupyterlite-tm112-demo`](https://ouseful-demos.github.io/jupyterlite-tm112-demo/lab/index.html)
 
+__When running the notebooks in JupyterLite, use the `Python 3.11 XPython` kernel for all module notebooks *except* the *Activity 6.29 - Modelling uncertainty* notebook which MUST use the *Pyodide* kernel.__
+
 STILL TO DO: See an interactive HTML book of materials here: https://ouseful-course-containers.github.io/ou-tm112-notebooks/
 See a non-executable, non-interactive, static (read-only) HTML preview of the materials here: https://ouseful-course-containers.github.io/ou-tm112-notebooks/pre-run
 
