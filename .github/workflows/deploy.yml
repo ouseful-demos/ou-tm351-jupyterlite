@@ -28,10 +28,11 @@ jobs:
           jupyter lite build --contents content --output-dir dist
       - name: Build the JupyterBook site
         run: |
+          $CONDA/bin/conda install jupyter-book --name base
           $CONDA/bin/conda env update --file environment.yml --name base
-          pip install jupyter-book
           jupyter kernelspec list  
-
+          jupyter-book build content/work --path-output book_output
+          cp -r book_output/_build/html dist/book_output/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
