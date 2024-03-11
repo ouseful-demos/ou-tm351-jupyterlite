@@ -16,7 +16,7 @@ Notebooks are provided for the following activities:
 
 You should be able to find the notebooks in either the `notebooks` folder or the `work` folder depending on which notebook server you are running.
 
-You can run and inspect these notebooks in various ways. 
+You can run and inspect these notebooks in various ways.
 
 For TM112 students, the recommended option is the Open Compute Lab - if you arrived here via the Open Compute Lab, you can now go to the work folder to run the notebooks. If you have not used a Jupyter notebook before, we recommend you start with Using Jupyter Notebooks.ipynb
 
