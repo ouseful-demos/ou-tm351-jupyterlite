@@ -3,6 +3,8 @@ jupyterlite-core==0.3.0
 jupyterlab>=4.1.1,<4.2
 notebook>=7.1.0,<7.2
 
+jupyterlab-filesystem-access
+
 jupyterlab-empinken-extension
 jupyterlab-cell-status-extension
 jupyterlab-ou-brand-extension
