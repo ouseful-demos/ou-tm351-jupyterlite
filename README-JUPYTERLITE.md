@@ -6,7 +6,7 @@ Once the environment has loaded, notebooks will run in the browser without the n
 
 Two styles of user interface are available:
 
-- [document centric "Jupyter notebok" style UI](https://ouseful-demos.github.io/jupyterlite-tm112-demo/tree)
+- [document centric "Jupyter notebok" style UI](https://ouseful-demos.github.io/jupyterlite-tm112-demo)
 - [IDE style JupyterLab environment](https://ouseful-demos.github.io/jupyterlite-tm112-demo/lab)
 
 Direct links to the exectuable JupyterLite and static pre-run HTML book versions of the notebooks:
