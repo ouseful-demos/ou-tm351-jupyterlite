@@ -3,17 +3,17 @@ root: Location Based Computing
 parts:
 - caption: Block 2 Unit 2
   chapters:
-  - file: Activity 6.16 - Cell Tower Lookup
-  - file: Activity 6.22 - 6.25 - Geocoding
-  - file: Activity 6.20 - Locating Nearby Wifi Hotspots
-  - file: Activity 6.27 - Creating annotated interactive maps with Python
-  - file: Activity 6.29 - Modelling uncertainty in simple trilateration
+  - file: Activity_6.16_-_Cell_Tower_Lookup
+  - file: Activity_6.22_-_6.25_-_Geocoding
+  - file: Activity_6.20_-_Locating_Nearby_Wifi_Hotspots
+  - file: Activity_6.27_-_Creating_annotated_interactive_maps_with_Python
+  - file: Activity_6.29_-_Modelling_uncertainty_in_simple_trilateration
 - caption: Block 3 Unit 2
   chapters:
-  - file: Block 3, Part 2 - Box 2.3 Looking back – Geocoding Demos
+  - file: Block_3_Part_2_-_Box_2.3_Looking_back_Geocoding_Demos
 - caption: Bonus Features
   chapters:
-  - file: Bonus notebook - Sonification Demo
+  - file: Bonus_notebook_-_Sonification_Demo
 - caption: Appendices
   chapters:
-  - file: Using Jupyter Notebooks
+  - file: Using_Jupyter_Notebooks
