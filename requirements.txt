@@ -1,7 +1,7 @@
 # Core modules (mandatory)
-jupyterlite-core==0.2.3
-jupyterlab>=4.1.1,<4.2
-notebook>=7.1.0,<7.2
+jupyterlite-core
+jupyterlab
+notebook
 
 jupyterlab-filesystem-access
 
