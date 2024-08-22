@@ -44,7 +44,7 @@ jobs:
           cp -r book_output/_build/html dist/book_output/
           
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
