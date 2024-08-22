@@ -4,9 +4,3 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - matplotlib
-  - pandas
-  - ipywidgets
-  - requests
-  - pip:
-      - ipython-magic-folium
