@@ -4,17 +4,12 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - numpy
+  - numpy<2.0.0
   - matplotlib
   - pandas
   - pillow
   - ipywidgets
-  - descartes
   - scipy
   - requests
-  - folium
-  - branca
-  - chardet
-  - pygeoif
   - pip:
       - ipython-magic-folium
