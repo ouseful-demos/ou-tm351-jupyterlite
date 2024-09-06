@@ -15,8 +15,4 @@ dependencies:
   - statsmodels
   - sqlalchemy
   - pip:
-    - anywidget
-    - jupysql
-    - ipython-magic-folium
-    - jupyter_anywidget_graphviz
-    - jupyter_anywidget_pglite
+    - seaborn
