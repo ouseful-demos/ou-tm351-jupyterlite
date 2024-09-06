@@ -13,6 +13,7 @@ dependencies:
   - seaborn
   - scikit-learn
   - statsmodels
+  - sqlalchemy
   - pip:
     - anywidget
     - seaborn
@@ -20,4 +21,3 @@ dependencies:
     - ipython-magic-folium
     - jupyter_anywidget_graphviz
     - jupyter_anywidget_pglite
-    - sqlalchemy
