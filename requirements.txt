@@ -26,52 +26,39 @@ jupyterlab_templates
 # Lua kernel (optional)
 #jupyterlite-xeus-lua==0.3.1
 
-
 # Branding and OU extensions
-jupyterlab-ou-brand-extension = "^0.2.3" # OU brand extension (favicon, logo)
+jupyterlab-ou-brand-extension>=0.2.3,<0.3.0  # OU brand extension (favicon, logo)
 
 # Notebook cell tools
-jupyterlab-cell-status-extension = "^0.2.2" # cell execution status; accessibility tools
-jupyterlab-empinken-extension = "^0.6.0" # cell background styling
-jupyterlab-skip-traceback = "^5.1.0" # skip trackeback / error reporting
-jupyterlab-myst = "^2.4.0" ## MyST parser and styling (markdown cells)
-jupyterlab-spellchecker = "^0.8.4" ## Spellchecker
+jupyterlab-cell-status-extension>=0.2.2,<0.3.0  # cell execution status; accessibility tools
+jupyterlab-empinken-extension>=0.6.0,<0.7.0  # cell background styling
+jupyterlab-skip-traceback>=5.1.0,<6.0.0  # skip traceback / error reporting
+jupyterlab-myst>=2.4.0,<3.0.0  # MyST parser and styling (markdown cells)
+jupyterlab-spellchecker>=0.8.4,<0.9.0  # Spellchecker
 
 # Code support
-#jupyterlab-lsp = "^5.1.0" # language server protocol
-jupyterlab-code-formatter = "^2.2.1" # Code formatter
-black = "^24.4.2" # code formatting
-isort = "^5.13.2" # code formatting
+jupyterlab-code-formatter>=2.2.1,<3.0.0  # Code formatter
+black>=24.4.2,<25.0.0  # code formatting
+isort>=5.13.2,<6.0.0  # code formatting
 
 # Language packs
-jupyterlab-language-pack-fr-fr = "^4.1.post2" # French
-jupyterlab-language-pack-zh-cn = "^4.1.post2" # Chinese
+jupyterlab-language-pack-fr-fr>=4.1.post2,<5.0.0  # French
+jupyterlab-language-pack-zh-cn>=4.1.post2,<5.0.0  # Chinese
 
 # File browsing and handling
-jupyterlab-unfold = "^0.3.0" # tree view in files sidebar
-jupyter-archive = "^3.4.0" # archive file download
-jupyterlab-filesystem-access = "^0.6.0" # local filesystem access
-#jupyterlab-git = "^0.50.1" # Git/Github tools
-jupytext = "^1.16.0" # text notebook formats
+jupyterlab-unfold>=0.3.0,<0.4.0  # tree view in files sidebar
+jupyter-archive>=3.4.0,<4.0.0  # archive file download
+jupyterlab-filesystem-access>=0.6.0,<0.7.0  # local filesystem access
+jupytext>=1.16.0,<2.0.0  # text notebook formats
 
 # Renderers
-jupyterlab-geojson = "^3.3.1" # geojson renderer
+jupyterlab-geojson>=3.3.1,<4.0.0  # geojson renderer
 
-# Resource monitoring
-# jupyter-resource-usage = "^1.0.2" # memory/CPU
-#jupyterlab_execute_time = "^3.1.2" # cell execution time
-
-# JupyterLab: Fasta file renderer (optional)
-#jupyterlab-fasta>=3.3.0,<4
-# JupyterLab: Geojson file renderer (optional)
-#jupyterlab-geojson>=3.4.0,<4
-# JupyterLab: guided tour (optional)
-# TODO: re-enable after https://github.com/jupyterlab-contrib/jupyterlab-tour/issues/82
-# jupyterlab-tour
-# JupyterLab: dark theme
-#jupyterlab-night
-# JupyterLab: Miami nights theme (optional)
-#jupyterlab_miami_nights
+# Commented out packages
+# jupyterlab-lsp>=5.1.0,<6.0.0  # language server protocol
+# jupyterlab-git>=0.50.1,<0.51.0  # Git/Github tools
+# jupyter-resource-usage>=1.0.2,<2.0.0  # memory/CPU
+# jupyterlab_execute_time>=3.1.2,<4.0.0  # cell execution time
 
 # Python: ipywidget library for Jupyter notebooks (optional)
 ipywidgets>=8.1.1,<9
