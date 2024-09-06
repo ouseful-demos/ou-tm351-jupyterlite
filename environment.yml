@@ -13,7 +13,6 @@ dependencies:
   - seaborn
   - scikit-learn
   - statsmodels
-  - geopandas
   - pip:
     - anywidget
     - seaborn
