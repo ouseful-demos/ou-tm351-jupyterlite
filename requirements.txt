@@ -11,6 +11,9 @@ jupyterlite-xeus
 # Python kernel (optional)
 jupyterlite-pyodide-kernel
 
+#WebR
+git+https://github.com/r-wasm/jupyterlite-webr-kernel.git
+
 # JavaScript kernel (optional)
 #jupyterlite-javascript-kernel==0.2.3
 

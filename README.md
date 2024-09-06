@@ -60,10 +60,11 @@ The Xeus XPython environment provides a custom Python environment with predefine
 
 The Pyodide kernel provides a [`pyodide` (Python WASM)](https://pyodide.org/en/stable/) environment. Universal python ackages (that is, ones that run on `any` platform) cab be installed into this kernel using `%pip install PACKAGENAME` cell magic.
 
+The experimental [`WebR`](https://github.com/r-wasm/jupyterlite-webr-kernel) kernel is also undergoing brook of concept testing for M348 [here](https://ouseful-demos.github.io/jupyterlite-m348-demo/) [[repo](https://github.com/ouseful-demos/jupyterlite-m348-demo)].
+
+
 ### Other available kernels
 
 Several other kernels are also available for Jupyterlite, including:
 
-- a "native" pyodide (WASM based Python) kernel;
-- an experimental [`WebR`](https://github.com/r-wasm/jupyterlite-webr-kernel) kernel (in testing as an M348 proof-of-concept);
 - the Xeus framework includes support for the installation of Javascript, SQLite, P5 (Processing) and Lua kernels. The wider Xeus initiative has support for an R kernel, but this is not yet available for JupyterLite.
