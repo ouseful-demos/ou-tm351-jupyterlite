@@ -14,7 +14,10 @@ JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
 
 ## ✨ Try it in your browser ✨
 
-➡️ **https://jupyterlite.github.io/demo**
+➡️ **https://ouseful-demos.github.io/ou-tm351-jupyterlite/**
+
+Open at a demo notebook: https://ouseful-demos.github.io/ou-tm351-jupyterlite/lab/index.html?path=tm351_examples.ipynb
+
 
 ![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
 
