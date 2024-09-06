@@ -4,6 +4,18 @@
     "cell_status_enable": true},
 "jupyterlab-skip-traceback:settings":{
     "enabled": true, "collapsed": true
-}
+},
+ "@jupyterlab/notebook-extension:panel": {
+    "toolbar": [
+      {
+        "name": "download",
+        "label": "Download",
+        "args": {},
+        "command": "docmanager:download",
+        "icon": "ui-components:download",
+        "rank": 50
+      }
+    ]
+  }
 }
 

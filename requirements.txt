@@ -3,11 +3,13 @@ jupyterlite-core
 jupyterlab
 notebook
 
+# KERNELS
+
 #git+https://github.com/r-wasm/jupyterlite-webr-kernel.git
 jupyterlite-xeus
 
 # Python kernel (optional)
-#jupyterlite-pyodide-kernel
+jupyterlite-pyodide-kernel
 
 # JavaScript kernel (optional)
 #jupyterlite-javascript-kernel==0.2.3
