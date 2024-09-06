@@ -9,3 +9,4 @@ dependencies:
   - jupyterlite-core >=0.3.0,<0.4.0
   - pip:
     - jupyterlite-xeus>=0.2.0a0,<0.3
+    - anywidget

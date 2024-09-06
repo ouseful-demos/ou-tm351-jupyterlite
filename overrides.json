@@ -1,3 +1,9 @@
-{"jupyterlab_cell_status_extension/plugin.jupyterlab-settings":{    "cell_flash_enable": true,
+{"jupyterlab_cell_status_extension:plugin":{
     "cell_status_audio_error": true,
-    "cell_status_enable": true}}
+    "cell_flash_enable": true,
+    "cell_status_enable": true},
+"jupyterlab-skip-traceback:settings":{
+    "enabled": true, "collapsed": true
+}
+}
+

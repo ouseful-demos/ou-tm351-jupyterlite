@@ -11,6 +11,7 @@ dependencies:
   - requests
   - folium
   - pip:
+    - anywidget
     - ipython-magic-folium
     - jupyter_anywidget_graphviz
     - jupyter_anywidget_pglite
