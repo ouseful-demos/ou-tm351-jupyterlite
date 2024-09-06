@@ -14,5 +14,10 @@ dependencies:
   - scikit-learn
   - statsmodels
   - sqlalchemy
+  - seaborn
   - pip:
-    - seaborn
+    - anywidget
+    - jupysql
+    - ipython-magic-folium
+    - jupyter_anywidget_graphviz
+    - jupyter_anywidget_pglite
