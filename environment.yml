@@ -16,7 +16,6 @@ dependencies:
   - sqlalchemy
   - pip:
     - anywidget
-    - seaborn
     - jupysql
     - ipython-magic-folium
     - jupyter_anywidget_graphviz
