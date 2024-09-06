@@ -31,7 +31,7 @@ jobs:
       - name: Install the dependencies
         run: |
           python -m pip install -r requirements.txt
-          python -m pip uninstall -y jupyterlab-git jupyterlab_execute_time
+    
       - name: Build the JupyterLite site
         run: |
           cp README*.md content

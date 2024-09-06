@@ -58,7 +58,7 @@ The TM351 demo JupyterLite environment ships a single Python kernel:
 
 The Xeus XPython environment provides a custom Python environment with predefined packages installed as specified in an [`environment.yml`](https://github.com/ouseful-demos/jupyterlite-tm112-demo/blob/main/environment.yml) file in the repository root directory. Packages specified in the main part of that config file are installed, along with their dependencies, from a conda source. Packages installed from PyPi by the `pip` context *do not* have their dependencies installed. Only packages with a `py3-none-any` build can be installed via the `pip` context. Packages cannot be installed from notebooks; if they are required, they must be installed into the XPython environment at the JupyterLite installation build time.
 
-The Pyodide kernel provides a [`pyodide` (Python WASM)](https://pyodide.org/en/stable/) environment. Universal python ackages (that is, ones that run on `any` platform) cab be installed into this kernel using `%pip install PACKAGENAME` cell magic.
+The Pyodide kernel provides a [`pyodide` (Python WASM)](https://pyodide.org/en/stable/) environment. Universal Python packages (that is, ones that run on `any` platform) can be installed into this kernel using `%pip install PACKAGENAME` cell magic.
 
 The experimental [`WebR`](https://github.com/r-wasm/jupyterlite-webr-kernel) kernel is also undergoing brook of concept testing for M348 [here](https://ouseful-demos.github.io/jupyterlite-m348-demo/) [[repo](https://github.com/ouseful-demos/jupyterlite-m348-demo)].
 
