@@ -43,12 +43,12 @@ jobs:
           name: jupyterlite_dist
           path: ./dist
 
-      - name: Build JupyterBook site
-        run: |
-          python -m pip install -r requirements-jb.txt
-          jupyter kernelspec list  
-          jupyter-book build content/work --path-output book_output
-          cp -r book_output/_build/html dist/book_output/
+#      - name: Build JupyterBook site
+#        run: |
+#          python -m pip install -r requirements-jb.txt
+#          jupyter kernelspec list  
+#          jupyter-book build content/work --path-output book_output
+#          cp -r book_output/_build/html dist/book_output/
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
