@@ -18,6 +18,7 @@ dependencies:
   - pip:
     - anywidget
     - jupysql
+    - sidecar
     - ipython-magic-folium
     - jupyter_anywidget_graphviz
     - jupyter_anywidget_pglite
