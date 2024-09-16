@@ -62,9 +62,14 @@ The Pyodide kernel provides a [`pyodide` (Python WASM)](https://pyodide.org/en/s
 
 The experimental [`WebR`](https://github.com/r-wasm/jupyterlite-webr-kernel) kernel is also undergoing brook of concept testing for M348 [here](https://ouseful-demos.github.io/jupyterlite-m348-demo/) [[repo](https://github.com/ouseful-demos/jupyterlite-m348-demo)].
 
-
 ### Other available kernels
 
 Several other kernels are also available for Jupyterlite, including:
 
 - the Xeus framework includes support for the installation of Javascript, SQLite, P5 (Processing) and Lua kernels. The wider Xeus initiative has support for an R kernel, but this is not yet available for JupyterLite.
+
+## Support for in-browser PostgreSQL database (`pglite`)
+
+Experimental support for the single use, in-browser, WASM based PostgreSQL distribution [`pglite`](https://github.com/electric-sql/pglite) is provided via the [`jupyter_anywidget_pglite` extension](https://github.com/innovationOUtside/jupyter_anywidget_pglite).
+
+This extension *may* be enough to support run some of the PostgreSQL database activities used in TM351 (none of them have been test as yet).
