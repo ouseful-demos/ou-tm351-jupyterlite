@@ -22,3 +22,4 @@ dependencies:
     - ipython-magic-folium
     - jupyter_anywidget_graphviz
     - jupyter_anywidget_pglite
+    - jupyter_anywidget_pandoc
