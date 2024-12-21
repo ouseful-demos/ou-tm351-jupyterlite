@@ -15,8 +15,8 @@ dependencies:
   - statsmodels
   - sqlalchemy
   - seaborn
+  - anywidget
   - pip:
-    - anywidget
     - jupysql
     - sidecar
     - ipython-magic-folium
