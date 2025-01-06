@@ -11,6 +11,10 @@ jupyterlite-xeus
 # Python kernel (optional)
 jupyterlite-pyodide-kernel
 
+# Widget support
+
+anywidget
+
 #WebR
 git+https://github.com/r-wasm/jupyterlite-webr-kernel.git
 
